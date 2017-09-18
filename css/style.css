@@ -2,24 +2,31 @@ h1 {
   color: #444444;
 }
 header {
-padding: 1em;
+  padding: 1em;
   background-color: black;
   clear: none;
   text-align: center;
+  margin-bottom: 0;
 }
 nav {
-  max-width: 170px;
+  max-width: 100%;
   margin: 0;
-  padding: 1em;
   border-bottom: 1px lightgray;
-  list-style-type: none;
-  display: inline;
-  text-decoration: none;
 }
 img {
   margin:0 auto;
 }
-
+#top-nav-style {
+  list-style-type: none;
+  font-family: sans-serif;
+  padding: 15px;
+  background-color: #F6F6F6;
+  box-shadow: 5px 5px 3px lightgray;
+  margin: 0;
+}
+li {
+  display: inline;
+}
 #header-image {
   display: block;
   margin: 0 auto;
@@ -45,6 +52,7 @@ aside {
 footer {
   display: block;
   float:none;
+  font-family: sans-serif;
   background-color: #292C2E;
   color: white;
   max-height: 500px
@@ -52,12 +60,7 @@ footer {
 #sections {
   border-top: 1px solid lightgray;
   padding-top: 1em;
-}
-#header-logo {
-  background-color: #F6F6F6;
-  margin-top: 0px;
-  box-shadow: 5px 5px 3px lightgray;
-  padding: 15px
+  line-height: 1px;
 }
 #more-alm {
   border-top: 1px solid lightgray;
@@ -66,11 +69,29 @@ footer {
 }
 #more-americanlawyer {
   border-bottom: 1px solid lightgray;
-  padding-bottom:
+  padding-bottom: 1em;
 }
 #top-side-banner {
   padding-bottom: 1em;
+  text-align: center;
 }
 #article-section {
   border-right: 1px solid lightgray;
+}
+#navlinks {
+  text-align: right;
+  word-spacing: 5px;
+}
+#tal-logo {
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+#bottom-side-banner {
+  text-align: center;
+  padding: 1em;
+}
+#article-reference {
+  line-height: 0px;
 }
