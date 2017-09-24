@@ -126,3 +126,9 @@ a.left-side-bar:link {
   padding: 20px;
   line-height: 10px;
 }
+.rex-image {
+  float:left;
+}
+.rex-text {
+  float: right;
+}
