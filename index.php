@@ -1,1 +1,1 @@
-<?php include_once("local-setup.html"); ?>
+<?php include_once("html/newsarticlejasmaine.html"); ?>
